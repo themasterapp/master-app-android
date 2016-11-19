@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_login"
+            android:icon="@drawable/ic_key"
+            android:title="@string/drawer_login_text" />
+
+        <item
+            android:id="@+id/drawer_signup"
+            android:icon="@drawable/ic_user"
+            android:title="@string/drawer_signup_text" />
+
+        <item
+            android:id="@+id/drawer_recipes"
+            android:icon="@drawable/ic_book"
+            android:title="@string/drawer_recipes_text" />
+
+        <item
+            android:id="@+id/drawer_myrecipes"
+            android:icon="@drawable/ic_write"
+            android:title="@string/drawer_myrecipes_text" />
+
+        <item
+            android:id="@+id/drawer_myaccount"
+            android:icon="@drawable/ic_id_badge"
+            android:title="@string/drawer_myaccount_text" />
+
+        <item
+            android:id="@+id/drawer_english_version"
+            android:icon="@drawable/ic_flag_alt_2"
+            android:title="@string/drawer_english_text" />
+
+        <item
+            android:id="@+id/drawer_logout"
+            android:icon="@drawable/ic_shift_right"
+            android:title="@string/drawer_logout_text" />
+
+
+    </group>
+
+
+
+</menu>

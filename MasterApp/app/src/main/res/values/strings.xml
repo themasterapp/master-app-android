@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MasterApp</string>
+    <string name="base_url">https://master-app-server-staging.herokuapp.com/</string>
+
+    <string name="drawer_login_text">Login</string>
+    <string name="drawer_signup_text">Cadastro</string>
+    <string name="drawer_recipes_text">Receitas</string>
+    <string name="drawer_myrecipes_text">Minhas receitas</string>
+    <string name="drawer_myaccount_text">Minha conta</string>
+    <string name="drawer_english_text">Trocar para inglês</string>
+    <string name="drawer_portuguese_text">Switch to portuguese</string>
+    <string name="drawer_logout_text">Logout</string>
+
+    <string name="forgot_password">Esqueci minha senha</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
