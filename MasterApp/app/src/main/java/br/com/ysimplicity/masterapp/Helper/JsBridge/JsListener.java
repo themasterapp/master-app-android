@@ -1,4 +1,4 @@
-package br.com.ysimplicity.masterapp.Helper.JsBridge;
+package br.com.ysimplicity.masterapp.helper.jsbridge;
 
 /**
  * Created by Indigo on 11/18/16.

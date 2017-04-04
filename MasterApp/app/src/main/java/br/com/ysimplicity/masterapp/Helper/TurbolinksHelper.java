@@ -1,4 +1,4 @@
-package br.com.ysimplicity.masterapp.Helper;
+package br.com.ysimplicity.masterapp.helper;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -10,10 +10,10 @@ import com.basecamp.turbolinks.TurbolinksAdapter;
 import com.basecamp.turbolinks.TurbolinksSession;
 import com.basecamp.turbolinks.TurbolinksView;
 
-import br.com.ysimplicity.masterapp.Helper.JsBridge.JsBridge;
-import br.com.ysimplicity.masterapp.Helper.JsBridge.JsListener;
-import br.com.ysimplicity.masterapp.MainActivity;
-import br.com.ysimplicity.masterapp.NoDrawerActivity;
+import br.com.ysimplicity.masterapp.helper.jsbridge.JsBridge;
+import br.com.ysimplicity.masterapp.helper.jsbridge.JsListener;
+import br.com.ysimplicity.masterapp.presentation.activity.MainActivity;
+import br.com.ysimplicity.masterapp.presentation.activity.NoDrawerActivity;
 import br.com.ysimplicity.masterapp.R;
 
 /**

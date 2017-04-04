@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="br.com.ysimplicity.masterapp.NoDrawerActivity">
+    tools:context="br.com.ysimplicity.masterapp.presentation.activity.NoDrawerActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/nodrawer_toolbar"

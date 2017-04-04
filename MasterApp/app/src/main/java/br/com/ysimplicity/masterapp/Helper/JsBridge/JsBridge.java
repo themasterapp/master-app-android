@@ -1,10 +1,11 @@
-package br.com.ysimplicity.masterapp.Helper.JsBridge;
+package br.com.ysimplicity.masterapp.helper.jsbridge;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.webkit.JavascriptInterface;
 
-import br.com.ysimplicity.masterapp.Helper.SessionManager;
+import br.com.ysimplicity.masterapp.helper.SessionManager;
+import br.com.ysimplicity.masterapp.helper.jsbridge.JsListener;
 
 /**
  * Created by Indigo on 11/18/16.

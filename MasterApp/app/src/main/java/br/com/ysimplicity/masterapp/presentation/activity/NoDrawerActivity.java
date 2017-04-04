@@ -1,4 +1,4 @@
-package br.com.ysimplicity.masterapp;
+package br.com.ysimplicity.masterapp.presentation.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,12 +6,13 @@ import android.support.v7.widget.Toolbar;
 
 import com.basecamp.turbolinks.TurbolinksView;
 
-import br.com.ysimplicity.masterapp.Helper.TurbolinksHelper;
+import br.com.ysimplicity.masterapp.R;
+import br.com.ysimplicity.masterapp.helper.TurbolinksHelper;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static br.com.ysimplicity.masterapp.Constants.INTENT_URL;
-import static br.com.ysimplicity.masterapp.Constants.TOOLBAR_TITLE;
+import static br.com.ysimplicity.masterapp.utils.Constants.INTENT_URL;
+import static br.com.ysimplicity.masterapp.utils.Constants.TOOLBAR_TITLE;
 
 public class NoDrawerActivity extends AppCompatActivity {
 
@@ -55,7 +56,7 @@ public class NoDrawerActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        getSupportActionBar().setTitle(getString(R.id.drawer_recipes));
+        getSupportActionBar().setTitle(getString(R.string.drawer_recipes_text));
 
         if (getIntent().hasExtra(TOOLBAR_TITLE)) {
             getSupportActionBar().setTitle(getIntent().getExtras().getString(TOOLBAR_TITLE));

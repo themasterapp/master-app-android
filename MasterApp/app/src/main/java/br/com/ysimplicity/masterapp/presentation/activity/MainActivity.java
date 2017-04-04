@@ -1,4 +1,4 @@
-package br.com.ysimplicity.masterapp;
+package br.com.ysimplicity.masterapp.presentation.activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -13,13 +13,14 @@ import android.view.MenuItem;
 
 import com.basecamp.turbolinks.TurbolinksView;
 
-import br.com.ysimplicity.masterapp.Helper.SessionManager;
-import br.com.ysimplicity.masterapp.Helper.TurbolinksHelper;
+import br.com.ysimplicity.masterapp.R;
+import br.com.ysimplicity.masterapp.helper.SessionManager;
+import br.com.ysimplicity.masterapp.helper.TurbolinksHelper;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static br.com.ysimplicity.masterapp.Constants.INTENT_URL;
-import static br.com.ysimplicity.masterapp.Constants.TOOLBAR_TITLE;
+import static br.com.ysimplicity.masterapp.utils.Constants.INTENT_URL;
+import static br.com.ysimplicity.masterapp.utils.Constants.TOOLBAR_TITLE;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
