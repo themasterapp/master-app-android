@@ -9,14 +9,14 @@
     tools:context="br.com.ysimplicity.masterapp.presentation.activity.NoDrawerActivity">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/nodrawer_toolbar"
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:theme="@style/ToolBarStyle"
         app:elevation="0dp" />
 
     <com.basecamp.turbolinks.TurbolinksView
-        android:id="@+id/tnodrawer_urbolinks_view"
+        android:id="@+id/turbolinksView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

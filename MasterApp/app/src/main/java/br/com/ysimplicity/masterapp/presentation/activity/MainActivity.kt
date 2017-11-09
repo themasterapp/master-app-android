@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         when (item.itemId) {
             R.id.drawer_login -> redirectToSelf(Constants.URL_SIGN_IN, R.string.drawer_login_text)
             R.id.drawer_signup -> redirectToSelf(Constants.URL_SIGN_UP, R.string.drawer_signup_text)
-            R.id.drawer_recipes -> redirectToSelf(Constants.URL_RECIPES, R.string.drawer_recipes_text)
+            R.id.drawer_recipes -> redirectToSelf(Constants.URL_HOME, R.string.drawer_recipes_text)
             R.id.drawer_myrecipes -> redirectToSelf(Constants.URL_MY_RECIPES, R.string.drawer_myrecipes_text)
             R.id.drawer_logout -> {
                 SessionManager.logoutUser(this)
