@@ -6,6 +6,7 @@
     <string name="drawer_signup_text">Cadastro</string>
     <string name="drawer_recipes_text">Receitas</string>
     <string name="drawer_myrecipes_text">Minhas receitas</string>
+    <string name="drawer_newrecipe_text">Nova receita</string>
     <string name="drawer_myaccount_text">Minha conta</string>
     <string name="drawer_english_text">Trocar para inglês</string>
     <string name="drawer_portuguese_text">Switch to portuguese</string>
