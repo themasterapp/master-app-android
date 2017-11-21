@@ -17,6 +17,7 @@ interface Constants {
         val URL_SIGN_OUT = "/users/sign_out"
         val URL_MY_ACCOUNT = "users/edit"
         val URL_RECIPES = "/recipes"
+        val URL_NEW_RECIPE = "/recipes/new"
         val URL_NEW_PASSWORD = "/users/password/new"
     }
 }

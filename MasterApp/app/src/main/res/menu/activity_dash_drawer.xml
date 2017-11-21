@@ -25,6 +25,11 @@
             android:title="@string/drawer_myrecipes_text" />
 
         <item
+            android:id="@+id/drawer_newrecipe"
+            android:icon="@drawable/ic_pencil"
+            android:title="@string/drawer_newrecipe_text" />
+
+        <item
             android:id="@+id/drawer_myaccount"
             android:icon="@drawable/ic_id_badge"
             android:title="@string/drawer_myaccount_text" />
